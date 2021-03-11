@@ -30,7 +30,7 @@ public class BackJoon1806 {
 			else {
 				firstPointer++;
 				sum-=arr[firstPointer];
-				ans=Math.min(ans, secondPointer-firstPointer);
+				ans=Math.min(ans, (secondPointer-firstPointer)+1);
 			}
 		}
 		if(ans==100001) {
