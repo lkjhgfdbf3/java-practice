@@ -3,9 +3,9 @@ import java.io.*;
 import java.util.*;
 
 public class BaekJoon2293 {
-	private static final BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-    private static int n, k;
-    private static int[] arr, dp;
+	static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+    static int n, k;
+    static int[] arr, dp;
 
     public static void main(String[] args) throws IOException {
         StringTokenizer st = new StringTokenizer(br.readLine());
